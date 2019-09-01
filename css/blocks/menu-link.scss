@@ -1,0 +1,18 @@
+.menu-link {
+  display: none;
+  padding-left: rem(30px);
+  @include tablets {
+    display: block;
+  }
+}
+
+.menu-link__rect {
+  width: rem(24px);
+  height: rem(4px);
+  display: block;
+  background-color: #fff;
+  border-radius: 3px;
+  & + .menu-link__rect {
+    margin-top: rem(5px);
+  }
+}

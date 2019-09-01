@@ -1,0 +1,37 @@
+.best {
+  background: url('../images/bg.png') no-repeat center center;
+  background-size: cover;
+  justify-content: center;
+}
+
+.best__title {
+  text-align: center;
+}
+
+.best__list {
+  display: flex;
+  text-align: center;
+  margin-top: rem(55px);
+
+  @include phones {
+    flex-direction: column;
+  }
+}
+
+.best__list-item {
+  width: rem(286px);
+
+  &+.best__list-item {
+    margin-left: rem(37px);
+
+    @include phones {
+      margin: 0;
+    }
+  }
+
+  @include phones {
+    width: 100%;
+  }
+}
+
+@import '../blocks/reason.scss';

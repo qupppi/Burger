@@ -1,0 +1,78 @@
+.reviews {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.reviews__reviewer {
+  width: 25%;
+  height: 50%;
+  position: relative;
+  font-size: rem(14px);
+  background: center center / cover no-repeat;
+
+  @include tablets {
+    width: 50%;
+    height: 25%;
+  }
+}
+
+.reviews__review {
+  height: 100%;
+  background-color: rgba(20, 20, 20, 0.7);
+  padding: rem(50px) rem(33px) 0 rem(20px);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s linear all;
+
+  @include tablets {
+    padding: rem(30px) rem(54px) 0 rem(55px);
+    text-align: center;
+  }
+
+  @include phones {
+    padding: 15%;
+  }
+}
+
+.reviews__reviewer:hover, .reviews__reviewer:active{
+  .reviews__review {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.reviews__review-author {
+  @include gagalin;
+  margin-bottom: rem(30px);
+
+  @include phones {
+    font-size: rem(24px);
+  }
+}
+
+.reviews__review-text {
+  @include ubuntu(light);
+  line-height: 1.71;
+  margin-bottom: rem(17px);
+
+  @include tablets {
+    margin-bottom: rem(27px);
+  }
+
+  @include phones {
+    display: none;
+  }
+}
+
+.reviews__review-link {
+  @include phones {
+    display: none;
+  }
+
+  &--mobile {
+    display: none;
+    @include phones {
+      display: inline-block;
+    }
+  }
+}

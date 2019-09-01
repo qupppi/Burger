@@ -1,0 +1,57 @@
+.order {
+  background: url('../images/order-form-bg.png') center center / cover no-repeat;
+  justify-content: center;
+}
+
+.order__title {
+  text-align: center;
+  color: $yellow;
+  margin-bottom: rem(25px);
+}
+
+.order__form {
+  display: flex;
+  label {
+    @include ubuntu(light);
+    font-size: rem(14px);
+  }
+
+  @include tablets {
+    flex-direction: column;
+  }
+}
+
+.order__col {
+  width: 50%;
+
+  @include tablets {
+    width: 100%;
+    padding: 0 15%;
+  }
+
+  @include phones {
+    padding: 0 5%;
+  }
+}
+
+.order__row {
+  display: flex;
+  @include phones {
+    justify-content: center;
+  }
+}
+
+.order__btns {
+  margin-top: rem(19px);
+  padding: 0 rem(10px);
+  align-items: center;
+}
+
+.order__btn--clear {
+  text-transform: initial;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 0;
+  margin-left: 20px;
+  height: 100%;
+}

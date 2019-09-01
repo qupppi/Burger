@@ -1,0 +1,168 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  font-size: 16px;
+
+  @include tablets {
+    font-size: 14px;
+  }
+
+  @include phones {
+    font-size: 13px;
+  }
+}
+
+body {
+  &.modal-opened {
+    overflow-y: hidden;
+    padding-right: 20px;
+  }
+}
+
+.wrap {
+  position: relative;
+  min-height: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: rem(980px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  @include tablets {
+    width: 95%;
+  }
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  padding: rem(13px) rem(15px);
+  border-radius: rem(5px);
+  @include ubuntu(medium);
+  text-decoration: none;
+  background-color: $dark-grey;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: rem(13px);
+  outline: none;
+}
+
+.bg-none {
+  background: none;
+}
+
+.bg-dark-orange {
+  background-color: $dark-orange;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.section {
+  height: 100%;
+  min-height: rem(650px);
+  display: flex;
+  flex-direction: column;
+  @include tablets {
+    min-height: initial;
+  }
+}
+
+.section-title {
+  @include gagalin;
+  font-size: rem(72px);
+}
+
+.input-wrap {
+  margin-top: rem(19px);
+  padding: 0 rem(10px);
+  flex-basis: 0;
+  flex-grow: 1;
+  min-width: rem(1px);
+
+  label {
+    margin-bottom: rem(7px);
+    cursor: pointer;
+  }
+  input[type=text], textarea {
+    border-radius: rem(5px);
+    border: solid rem(2px) #d1cfcb;
+    &:focus {
+      outline: none;
+      border: solid rem(2px) $yellow;
+    }
+  }
+}
+
+.radio-wrap, .checkbox-wrap {
+  margin-top: rem(19px);
+  padding: 0 rem(10px);
+  input[type=radio], input[type=checkbox] {
+    position: absolute;
+    visibility: hidden;
+  }
+  .radio-btn, .checkbox-btn {
+    width: rem(15px);
+    height: rem(15px);
+    margin: auto rem(10px) auto 0;
+    position: relative;
+    background: #fff;
+  }
+  .radio-btn {
+    border-radius: 50%;
+  }
+  input[type=radio]:checked + label .radio-btn::before {
+    content: " ";
+    display: block;
+    width: rem(7px);
+    height: rem(7px);
+    border-radius: 50%;
+    position: absolute;
+    top: rem(4px);
+    left: rem(4px);
+    background-color: $dark-orange;
+  }
+  input[type=checkbox]:checked + label .checkbox-btn::before {
+    content: " ";
+    display: block;
+    height: rem(11px);
+    width: rem(7px);
+    border-right: rem(3px) solid $dark-orange;
+    border-bottom: rem(3px) solid $dark-orange;
+    box-sizing: border-box;
+    transform: rotate(45deg) translateX(rem(3px)) translateY(rem(-3px));
+  }
+}
+
+.d-mobile-none {
+  @include phones {
+    display: none;
+  }
+}
+
+.ml-1 {
+  margin-left: 5%;
+}

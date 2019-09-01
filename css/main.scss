@@ -1,0 +1,30 @@
+$dark-orange: #e45028;
+$yellow: #f9b43b;
+$dark-grey: #2f3234;
+
+$tablets: 768px;
+$phones: 480px;
+
+
+@import './layout/media.scss';
+@import './layout/normalize.min.scss';
+@import './layout/fonts.scss';
+@import './layout/reset.scss';
+@import './layout/base.scss';
+@import './layout/icon.scss';
+
+@import './blocks/burger.scss';
+@import './blocks/footer.scss';
+@import './blocks/socials.scss';
+@import './blocks/section-pagination.scss';
+@import "./blocks/slider.scss";
+
+@import './section/greeting.scss';
+@import './section/best.scss';
+@import './section/team.scss';
+@import './section/burgers.scss';
+@import './section/menu.scss';
+@import './section/reviews.scss';
+@import './section/work.scss';
+@import './section/order.scss';
+@import './section/contacts.scss';

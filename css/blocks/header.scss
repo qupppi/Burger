@@ -1,0 +1,23 @@
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: rem(12px);
+}
+
+.header__btns {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  @include ubuntu(medium);
+  font-size: rem(13px);
+}
+
+.header__links {
+  margin-left: rem(15px);
+  display: flex;
+  align-items: center;
+}
+
+@import './nav.scss';
+@import './menu-link.scss';

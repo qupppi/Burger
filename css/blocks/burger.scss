@@ -1,0 +1,170 @@
+
+.burger {
+  display: flex;
+  color: #fff;
+
+  @include tablets {
+    flex-wrap: wrap;
+  }
+}
+
+.burger__col {
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: 0;
+
+  @include tablets {
+    flex-basis: 100%
+  }
+}
+
+.burger__visual {
+  position: relative;
+  @include gagalin;
+  font-size: rem(14px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.burger__consist, .burger__calorie {
+  position: absolute;
+  left: 0;
+  color: #ffffff;
+}
+
+.burger__consist {
+  top: 0;
+  text-decoration: none;
+  background-color: rgba($dark-orange, 0.4);
+  border-radius: 5px;
+  width: rem(90px);
+  height: rem(90px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &:hover, &:active {
+    .burger__consist-list {
+      width: rem(270px);
+    }
+  }
+}
+
+.burger__consist-list {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: rgba(#fff, 0.9);
+  border-radius: 5px;
+  color: #000;
+  @include ubuntu(light);
+  width: 0;
+  overflow: hidden;
+  transition: 0.3s linear all;
+}
+
+.burger__consist-item {
+  padding: 5% 10% 5% 0;
+  width: rem(270px);
+  display: flex;
+}
+
+.burger__consist-icon {
+  flex: 1;
+}
+
+.burger__consist-text {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.burger__consist-name {
+  font-weight: bold;
+}
+
+.burger__img {
+  max-width: 100%;
+  max-height: 100%;
+  padding: rem(5px);
+}
+
+.burger__calorie-wrap {
+  position: relative;
+}
+
+.burger__calorie {
+  bottom: 0;
+  opacity: 0.5;
+  text-align: center;
+  @include tablets {
+    right: 0;
+    top: 0;
+    bottom: auto;
+    left: auto;
+  }
+}
+
+.burger__calorie-value {
+  font-size: rem(20px);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.burger__text {
+  @include tablets {
+    text-align: center;
+  }
+}
+
+.burger__name {
+  @include gagalin;
+  font-size: 72px;
+  line-height: 0.89;
+  padding-bottom: 10%;
+
+  @include tablets {
+    padding: 5%;
+  }
+
+  @include phones {
+    font-size: rem(50px);
+    line-height: 1.06;
+  }
+}
+
+.burger__description {
+  @include ubuntu(light);
+  font-size: rem(14px);
+  line-height: 1.71;
+}
+
+.burger__price {
+  display: inline-block;
+  @include gagalin;
+  font-size: 72px;
+  line-height: 0.93;
+  letter-spacing: rem(-1.8px);
+  color: $dark-orange;
+  padding-right: 5%;
+  padding-top: 5%;
+}
+
+.burger__price-curency {
+  font-size: rem(30px);
+  letter-spacing: rem(-0.8px);
+}
+
+.burger__order {
+  vertical-align: super;
+}
+

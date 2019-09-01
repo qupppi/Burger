@@ -1,0 +1,113 @@
+.menu {
+  background: url('../images/bg/main-menu.png') 50% / cover no-repeat;
+  position: relative;
+}
+
+.menu__title {
+  color: #fff;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.menu-block {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  left: 50%;
+
+  @include tablets {
+    left: 0;
+  }
+}
+
+.menu__list {
+  display: flex;
+  height: 100%;
+  position: relative;
+  justify-content: flex-end;
+}
+
+.menu__item {
+  display: flex;
+  max-height: 100%;
+  color: #fff;
+  justify-content: flex-end;
+  width: rem(80px);
+  transition: 0.3s all;
+
+  @include tablets {
+    width: rem(65px);
+  }
+
+  @include phones {
+    width: rem(50px);
+  }
+
+  &--active {
+    width: 100%;
+    .menu__item-trigger {
+      color: $yellow;
+    }
+    .menu__item-description {
+      overflow: auto;
+      padding: rem(60px) rem(30px);
+    }
+
+    @include phones {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      z-index: 100;
+    }
+  }
+}
+
+.menu__item-trigger {
+  flex: none;
+  background: center center / auto 100% no-repeat;
+  @include gagalin;
+  color: #fff;
+  text-decoration: none;
+  width: rem(80px);
+  height: 100%;
+  float: left;
+  position: relative;
+  &::before {
+    content: " ";
+    display: block;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  @include tablets {
+    width: rem(65px);
+  }
+
+  @include phones {
+    width: rem(50px);
+  }
+}
+
+.menu__trigger-text {
+  font-size: rem(40px);
+  white-space: nowrap;
+  position: absolute;
+  transform: rotate(-90deg) translateY(-50%);
+  transform-origin: 0 0;
+  left: 50%;
+  margin-top: rem(-20px);
+
+  @include phones {
+    font-size: rem(30px);
+  }
+}
+
+.menu__item-description {
+  overflow: hidden;
+  background-color: rgba($dark-grey, 0.93);
+  @include ubuntu(light);
+  font-size: rem(14px);
+  line-height: 1.8;
+  transition: 0.3s width;
+}

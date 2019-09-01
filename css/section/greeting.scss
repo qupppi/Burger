@@ -1,0 +1,75 @@
+.greeting {
+  background: url('../images/video-bg.png') center center no-repeat;
+  background-size: cover;
+}
+
+.greeting__container {
+  flex: 1;
+}
+
+@import '../blocks/header.scss';
+
+.greeting__content {
+  flex: .8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  @include lifehack;
+  font-size: rem(65px);
+  @include tablets {
+    flex-direction: column;
+    padding: 0 12%;
+  }
+}
+
+.greeting__text {
+  margin-left: rem(45px);
+
+  @include tablets {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+.greeting__title {
+  color: $yellow;
+
+  @include tablets {
+    font-size: rem(72px);
+  }
+
+  @include phones {
+    font-size: rem(63px);
+  }
+}
+
+.greeting__sub-title {
+  // width: rem(406px);
+  letter-spacing: rem(-1.6px);
+  margin-top: rem(20px);
+
+  @include tablets {
+    font-size: rem(65px);
+  }
+
+  @include phones {
+    font-size: rem(54px);
+  }
+}
+
+.greeting__images {
+  position: relative;
+}
+
+.greeting__images .greeting__drops {
+  position: absolute;
+  top: 13%;
+  left: -4%;
+}
+
+.greeting__img {
+  max-width: 100%;
+}
+
+@import '../blocks/scroll-down.scss';

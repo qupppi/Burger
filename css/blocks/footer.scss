@@ -1,0 +1,52 @@
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  // height: rem(60px);
+  padding: rem(11px) 0;
+  background-color: $dark-grey;
+}
+
+.footer__container {
+  flex-direction: row;
+  @include phones {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.footer__socials {
+  margin-bottom: 0;
+  align-items: flex-end;
+}
+
+.footer__info,
+.footer__socials {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  @include phones {
+    width: 100%;
+    align-items: center;
+  }
+}
+
+.footer__address {
+  color: #fff;
+  font-size: rem(14px);
+  margin-bottom: rem(10px);
+}
+
+.footer__phone {
+  color: $dark-orange;
+  @include ubuntu(bold);
+  text-decoration: none;
+  font-size: rem(14px);
+
+  @include phones {
+    margin-bottom: 5%;
+  }
+}

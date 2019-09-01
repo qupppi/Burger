@@ -1,0 +1,62 @@
+.contacts {
+  background: url(../images/bg/map.png) center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.footer {
+  background: url("../images/bg/bg_footer.png") center center no-repeat;
+  height: 67px;
+  width: 100%;
+  background-size: cover;
+  position: absolute;
+  bottom: 0px;
+}
+
+.footer__left {
+  float: left;
+  width: 50%;
+  margin-top: 10px; }
+
+.footer__address {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.footer__phone {
+  color: #e35028;
+  font-family: 'ubuntubold';
+  text-decoration: none;
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+
+  .footer__right {
+  float: right;
+  width: 50%;
+  margin-top: 20px; }
+
+.socials {
+  float: right; }
+
+.socials__item {
+  display: inline-block;
+  float: left;
+  vertical-align: middle;
+  margin-left: 20px; }
+
+.socials__text {
+  display: none; }
+
+.socials__icon {
+  display: block;
+  width: 22px;
+  height: 22px;
+  opacity: 0.3;
+  transition: opacity 0.5s; }
+
+.socials__link:hover .socials__icon {
+  opacity: 1; }
+

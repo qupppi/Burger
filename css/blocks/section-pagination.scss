@@ -1,0 +1,29 @@
+.section-pagination {
+  position: fixed;
+  right: rem(50px);
+  top: rem(91px);
+  @include tablets {
+    display: none;
+  }
+}
+
+.section-pagination .pagination__list-item {
+  display: flex;
+  width: rem(16px);
+  height: rem(16px);
+  border-radius: 50%;
+  margin: rem(7.5px) 0;
+}
+
+.section-pagination .pagination__list-item.active {
+  border: rem(1px) solid #fff;
+}
+
+.section-pagination .pagination__link {
+  display: block;
+  width: rem(6px);
+  height: rem(6px);
+  background-color: #fff;
+  border-radius: 50%;
+  margin: auto;
+}
