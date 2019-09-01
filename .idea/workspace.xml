@@ -1,7 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a28d38b-5ce4-410d-bbb0-02db8d5f385d" name="Default Changelist" comment="" />
+    <list default="true" id="1a28d38b-5ce4-410d-bbb0-02db8d5f385d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/Chiken burger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/NYC-Diner-Bacon-Cheeseburger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/Spicy_Shrimp_Burger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/aphex_m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/bg/best-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/bg/bg_diet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/bg/bg_footer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/bg/bg_how.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/bg/bg_meat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/bg/bg_vega.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/bg/first-screen-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/bg/main-menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/bg/map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/bg/order-form-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/bg/team-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/black_burger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/burger_black_m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/burger_main.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/burger_main_m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/burger_sandwich_PNG4124.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/hand_m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/logo_m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/meat_m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/natural_m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/photo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/photo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/photo3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/photo4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/photo5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/photo6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/photo7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/photo8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/image/video-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg/best-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bg/first-screen-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/burger_black_m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/burger_sandwich_PNG4124.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/chicken-burger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dinner-bycon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/spicy_shrimps.png" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="75">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="17" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#li#3;n#ul#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -37,15 +80,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/layout/media.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/section/best.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -60,15 +94,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/blocks/burger.scss">
+        <entry file="file://$PROJECT_DIR$/css/section/contacts.scss">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/blocks/slider.scss">
+        <entry file="file://$PROJECT_DIR$/css/section/greeting.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="225">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/section/menu.scss">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/section/order.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -83,28 +131,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/css/section/team.scss">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prepros-6.config">
+        <entry file="file://$PROJECT_DIR$/css/blocks/header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/blocks/nav.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -180,11 +215,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="560" />
-    <option name="y" value="219" />
-    <option name="width" value="1343" />
-    <option name="height" value="508" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1440" />
+    <option name="height" value="836" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -192,7 +225,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,10 +232,33 @@
               <item name="Burger" type="b2602c69:ProjectViewProjectNode" />
               <item name="Burger" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Burger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Burger" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Burger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Burger" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Burger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Burger" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="section" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Burger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Burger" type="462c0819:PsiDirectoryNode" />
+              <item name="sprite" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,17 +293,19 @@
       <workItem from="1567334784545" duration="1731000" />
       <workItem from="1567336688453" duration="944000" />
       <workItem from="1567339954407" duration="3504000" />
-      <workItem from="1567344597674" duration="415000" />
+      <workItem from="1567344597674" duration="1317000" />
+      <workItem from="1567349018003" duration="296000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13358000" />
+    <option name="totallyTimeSpent" value="14556000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="838" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="836" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18322763" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18322763" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -260,7 +317,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32841823" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32795697" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.3293011" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -292,15 +349,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/section/team.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprites/sprites.svg" />
-    <entry file="file://$PROJECT_DIR$/css/blocks/reasins.scss" />
     <entry file="file://$PROJECT_DIR$/css/section/order-form.css" />
     <entry file="file://$PROJECT_DIR$/js/main.js" />
     <entry file="file://$PROJECT_DIR$/js/pagination-controller.js" />
@@ -316,20 +364,6 @@
     <entry file="file://$PROJECT_DIR$/css/blocks/nav.css" />
     <entry file="file://$PROJECT_DIR$/css/blocks/section-pagination.css" />
     <entry file="file://$PROJECT_DIR$/css/blocks/player.css" />
-    <entry file="file://$PROJECT_DIR$/css/blocks/footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/blocks/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/blocks/menu-link.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -397,20 +431,6 @@
     <entry file="file://$PROJECT_DIR$/js/modules/slider.js" />
     <entry file="file://$PROJECT_DIR$/js/modules/viewport.js" />
     <entry file="file://$PROJECT_DIR$/js/map.js" />
-    <entry file="file://$PROJECT_DIR$/css/section/greeting.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/section/order.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/layout/media.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -418,30 +438,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/section/best.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/section/burgers.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/blocks/burger.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/blocks/slider.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/section/work.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -452,13 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/blocks/nav.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prepros-6.config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -466,10 +459,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/blocks/nav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/blocks/burger.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/blocks/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/blocks/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/section/burgers.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/section/contacts.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/section/greeting.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/section/menu.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/section/order.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/section/team.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/section/work.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/section/best.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="17" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#li#3;n#ul#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
